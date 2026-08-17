@@ -1,0 +1,60 @@
+# Environment variables / secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Temporary / runtime output
+pipeline_output.txt
+
+# Large local data files
+data/raw/
+data/Transformed/
+data/warehouse/
+
+# Spark / Databricks generated files
+_SUCCESS
+_started_*
+_committed_*
+part-*
+*.snappy.parquet
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary project files
+project_structure.txt
+
+# Keep screenshots and documentation
+!screenshots/
+!documentation/
+
+# Keep source code and SQL files
+!python/
+!config/
+!snowflake/
+!mysql/
+!powerbi/
+
+
+# Large Power BI files
+*.pbix
